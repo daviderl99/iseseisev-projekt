@@ -1,0 +1,143 @@
+body{
+  background-color: #2C3442;
+  overflow:hidden;
+}
+
+#sketch-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main{
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#startBtn{
+  background-color: #00FF82;
+  margin-left: 0.5vw;
+  border: none;
+  border-radius: 0.5vw;
+  height: 5vh;
+  width: 5vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  outline: none;
+}
+
+#startBtn:hover{
+  cursor: pointer;
+}
+
+#startBtn:active{
+  background-color:  #11DD82;
+  transform: scale(0.98);
+}
+
+#difficulty{
+  height: 5vh;
+  width: 5vw;
+  font-weight: bold;
+  border-radius: 0.5vw;
+  outline: none;
+}
+
+#difficulty option{
+  font-weight: bold;
+}
+
+#color{
+  height: 5.7vh;
+  width: 5.5vh;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: 0.5vw;
+}
+
+#color:hover{
+  cursor: pointer;
+}
+
+#popup-container{
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  margin-left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+#finish-popup{
+  height: 32vh;
+  width: 25vw;
+  background-color: #FFF;
+  font-family: arial;
+  font-size: 4vh;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.2vw;
+}
+
+#time{
+  margin-top: 0.2vh;
+  margin-bottom: 5vh;
+}
+
+#restart{
+  height: 5vh;
+  width: 10vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  background-color: #00FF82;
+  border: none;
+  border-width: 2px;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  outline: none;
+}
+
+#restart:hover{
+  background-color: #FFF;
+  color: #00FF82;
+  border: solid;
+  border-width: 2px;
+}
+
+#close{
+  height: 5vh;
+  width: 5vh;
+  margin: 0;
+  font-size: 2.5vh;
+  font-weight: bold;
+  border-radius: 50%;
+  border: solid;
+  border-width: 0.15vh;
+  border-color: #707070;
+  outline: none;
+  position: relative;
+  left: 12.2vw;
+  bottom: 2vh;
+  transform: rotate(45DEG);
+}
+
+#close:hover{
+  background-color: #FF1C1C;
+  cursor: pointer;
+}
+
+.unselectable{
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
