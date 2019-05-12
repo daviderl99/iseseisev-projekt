@@ -1,3 +1,18 @@
+# Amaze
+David Erlich
+
+Rakendus genereerib randomiseeritud labürindi kasutades sügavuti otsingu algoritmi. 
+Rakendusega saab valida kolme raskusastme vahel. Olenevalt milline raskusaste on valitud, 
+genereeritakse vastava suurusega labürint. Saab valida ka labürindi värvi.
+Kui labürint on ära genereeritud, on mängjal võimalik end noolte abil liigutada. 
+Algus- ja lõpppunkt on alati samas asukohas.
+Aeg hakkab käima, kui mängja lahkub alguspunktist.
+Kui mängja jõuab lõppu ilmub hüpikaken kus antakse mängjale teada ta aeg.
+
+http://prntscr.com/nnl6f1
+
+
+
 # iseseisev-projekt
 Eesrakenduste arendamise iseseisva projekti lähteülesanne. 
 
