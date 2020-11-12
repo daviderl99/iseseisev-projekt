@@ -1,4 +1,4 @@
-# Amaze
+# Maze
 David Erlich
 
 Rakendus genereerib randomiseeritud labürindi kasutades sügavuti otsingu algoritmi. 
